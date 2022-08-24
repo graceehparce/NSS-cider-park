@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+body {
+    background-image: url("./treebackground.jpg");
+    color: #404040;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+    background-color: rgb(172, 71, 46);
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 25%;
+    border: 10px solid rgb(4, 88, 4);
+}
+
+h2 {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(74, 175, 74);
+    padding: 30px;
+
+}
+
+.theServices {
+    background-color: rgb(239, 190, 68);
+    margin: 40px;
+    border: 8px solid rgb(4, 88, 4);
+    padding: 40px;
+    border-radius: 25%;
+}
+
+.theGuests {
+    background-color: rgb(74, 117, 186);
+    margin: 40px;
+    border: 8px solid rgb(4, 88, 4);
+    padding: 40px;
+    border-radius: 25%;
+
+}
+
+.theLocations {
+    background-color: rgb(172, 71, 46);
+    margin: 40px;
+    border: 8px solid rgb(4, 88, 4);
+    padding: 50px;
+    border-radius: 25%;
+}
+
+.serveBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    margin: 0px;
+}
+
+.bigSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

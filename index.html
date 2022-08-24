@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cider Park Falls Webpage</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <main id="container">
+        <article class="theBody">
+            <section class="theServices">
+                <h2>Cider Park Services</h2>
+                <div class="serveBox">${serviceHTML()}</div>
+            </section>
+            <section class="bigSection">
+                <section class="theLocations">
+                    <h2>Cider Falls Park Areas</h2>
+                    <div class="locBox">${locationHTML()}</div>
+                </section>
+                <section class="theGuests">
+                    <h2>Cider Park Guests</h2>
+                    <div class="guestBox">${guestHTML()}</div>
+                </section>
+            </section>
+        </article>
+    </main>
+    <footer class="foot">
+        <li class="footItem">Phone: (333)333-333</li>
+        <li class="footItem">Email: ciderfallspeople@gmail.com</li>
+        <li class="footItem">Address: 333 Apples Drive Itsfall, VT</li>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
